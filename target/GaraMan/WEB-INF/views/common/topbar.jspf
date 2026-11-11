@@ -1,0 +1,10 @@
+<div class="topbar">
+  <div class="brand">Gara<span>Man</span> &nbsp;|&nbsp; Quản lý gara ô tô</div>
+  <div class="user">
+    <c:if test="${not empty sessionScope.member}">
+      Xin chào, <b><c:out value="${sessionScope.member.fullName}"/></b>
+      <a href="${ctx}/home">Trang chủ</a>
+      <a href="${ctx}/logout">Đăng xuất</a>
+    </c:if>
+  </div>
+</div>
