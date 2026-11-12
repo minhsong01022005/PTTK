@@ -6,7 +6,6 @@
 <%@ include file="/WEB-INF/views/common/topbar.jspf" %>
 <div class="container">
 <div class="card">
-  <div class="steps"><span class="st on">1. Chọn nhà cung cấp</span><span class="st">2. Lập hóa đơn nhập</span><span class="st">3. Xác nhận &amp; in hóa đơn</span></div>
   <h1>Chọn nhà cung cấp</h1>
   <p class="sub">Tìm nhà cung cấp theo tên hoặc mã, sau đó bấm &quot;Chọn&quot;.</p>
   <form class="inline" method="get" action="${ctx}/import/suppliers">

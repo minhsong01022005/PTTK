@@ -6,7 +6,6 @@
 <%@ include file="/WEB-INF/views/common/topbar.jspf" %>
 <div class="container">
 <div class="card">
-  <div class="steps"><span class="st">1. Chọn nhà cung cấp</span><span class="st">2. Lập hóa đơn nhập</span><span class="st on">3. Xác nhận &amp; in hóa đơn</span></div>
   <div class="alert okm">Lưu hóa đơn thành công, số lượng tồn kho đã được cộng dồn.</div>
   <div class="print-area">
     <h1>HÓA ĐƠN NHẬP PHỤ TÙNG số ${hoaDon.id}</h1>

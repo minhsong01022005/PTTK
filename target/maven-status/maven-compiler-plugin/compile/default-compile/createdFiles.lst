@@ -19,12 +19,15 @@ gara\dao\PartDAO4.class
 gara\dao\DAO.class
 gara\dao\impl\SupplierDAOImpl4.class
 gara\dao\ServiceDAO4.class
+gara\model\user\Technician4.class
 gara\controller\EncodingFilter.class
 gara\model\catalog\Supplier4.class
 gara\dao\impl\PartDAOImpl4.class
+gara\model\user\SalesStaff4.class
 gara\dao\impl\MemberDAOImpl4.class
 gara\dao\ImportInvoiceDAO4.class
 gara\model\user\FullName4.class
 gara\model\transaction\ImportInvoice4.class
 gara\model\user\Member4.class
 gara\dao\impl\ImportInvoiceDAOImpl4.class
+gara\model\user\Manager4.class
